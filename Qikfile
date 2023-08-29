@@ -2,6 +2,8 @@
 (var) What is the name of your project ? ; EDIT_JSON : package.json["name"] : {RES}
 (yon) [y] Open Source ? ; (EDIT_JSON : package.json["description"] : Open Source) § (EDIT_JSON : package.json["description"] : Not Open Source)
 (yon) [y] Say hello ? ; EXEC : echo Hello § echo Not Hello :<
+(yon) [n] Baguette ? Baguette ? ; (EDIT_TOML : test.toml["baguette"]["baguette"] : Baguette) § (EDIT_TOML : test.toml["baguette"]["baguette"] : Pas Baguette)
+(var) [J'aime les croissants] Croissants ? EDIT_TOML : test.toml["croissants"] : {RES}
 
 [RUN]
 npm install
