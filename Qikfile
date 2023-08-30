@@ -9,6 +9,7 @@
 
 [RUN]
 npm install
+move .env.example .env
 
 [MESSAGE]
 This repository is a simple repository for testing updates of Qik.
