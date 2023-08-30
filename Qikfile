@@ -4,6 +4,8 @@
 (yon) [y] Say hello ? ; EXEC : echo Hello § echo Not Hello :<
 (yon) [n] Baguette ? Baguette ? ; (EDIT_TOML : test.toml["baguette"]["baguette"] : Baguette) § (EDIT_TOML : test.toml["baguette"]["baguette"] : Pas Baguette)
 (var) [J'aime les croissants] Croissants ? ; EDIT_TOML : test.toml["croissants"] : {RES}
+(var) [fdp] Chocolatine ? ; EDIT_DOTENV : .env.example["CHOCOLATINE"] : {RES}
+(yon) [y] Discord Mod ? ; (EDIT_DOTENV : .env.example["DISCORDMOD"] : true) § (EDIT_DOTENV : .env.example["DISCORDMOD"] : false)
 
 [RUN]
 npm install
