@@ -1,3 +1,6 @@
+[WARNING_MESSAGE]
+This template is a test.
+
 [QUESTION]
 (var) What is the name of your project ? ; EDIT_JSON : package.json["name"] : {RES}
 (yon) [y] Open Source ? ; (EDIT_JSON : package.json["description"] : Open Source) § (EDIT_JSON : package.json["description"] : Not Open Source)

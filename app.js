@@ -1,4 +1,4 @@
-const pkg = require("./v1/package.json");
+const pkg = require("./package.json");
 
 console.log("App V1")
 if (pkg.name !== "qik-test") console.log("Name OK.")
