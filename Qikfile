@@ -10,7 +10,6 @@ This template is a test.
 (var) [fdp] Chocolatine ? ; EDIT_DOTENV : .env.example["CHOCOLATINE"] : {RES}
 (yon) [y] Discord Mod ? ; (EDIT_DOTENV : .env.example["DISCORDMOD"] : true) § (EDIT_DOTENV : .env.example["DISCORDMOD"] : false)
 (var) What is the template ? ; EDIT_JSONC : d.jsonc["name"] : {RES}
-(yon) [y] Template ? ; (EDIT_JSONC : d.jsonc["description"] : null) § (EDIT_JSONC : d.jsonc["template"] : undefined)
 
 [RUN]
 npm install
