@@ -14,7 +14,7 @@ This template is a test.
 (yon) [y] Discord Mod ? ; (EDIT_DOTENV : .env.example["DISCORDMOD"] : true) § (EDIT_DOTENV : .env.example["DISCORDMOD"] : false)
 (var) What is the template ? ; EDIT_JSONC : d.jsonc["name"] : {RES}
 (yon) [y] Template ? ; (EDIT_JSONC : d.jsonc["description"] : null) § (EDIT_JSONC : d.jsonc["template"] : undefined)
-(sel) [npm,pnpm,yarn] What is your package manager ? You can use yarn, npm, pnpm ; EDIT_JSONC : d.jsonc["packageManager"] : {RES}
+(sel) [npm,pnpm,yarn] What is your package manager ? ; EDIT_VAR : package_manager : {RES}
 
 [RUN]
 npm install
