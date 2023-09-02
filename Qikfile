@@ -1,3 +1,6 @@
+[VAR]
+package_manager : npm
+
 [WARNING_MESSAGE]
 This template is a test.
 
