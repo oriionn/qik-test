@@ -17,7 +17,9 @@ This template is a test.
 (sel) [npm,pnpm,yarn] What is your package manager ? ; EDIT_VAR : package_manager : {RES}
 
 [RUN]
-npm install
+(package_manager : npm) npm install
+(package_manager : pnpm) pnpm install
+(package_manager : yarn) yarn install
 qik.move .env.example .env
 
 [MESSAGE]
